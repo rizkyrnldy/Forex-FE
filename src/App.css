@@ -1,32 +1,13 @@
-.App {
-  text-align: center;
-}
+.height-full{height: 100vh;}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.no-padding{padding: 0 !important}
+.no-margin{margin: 0 !important}
+.pr-30{padding-right: 30px !important;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.italic{font-style: italic}
 
-.App-link {
-  color: #61dafb;
-}
+.btn-submit{position: absolute !important; right: -4px; top: 1px; border-radius: 0 !important; }
+.btn-remove{position: absolute !important; right: -4px; top: 0px; bottom: 0; border-radius: 0 !important; padding: 10px !important}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.pointer{cursor: pointer;}
+.ic-edit{font-size: 9px !important; margin-left: 5px !important;}
