@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Grid, Card, Header, Icon, Button } from 'semantic-ui-react'
+import { Grid, Card, Header, Icon, Button, Dimmer, Loader } from 'semantic-ui-react'
 export default class List extends Component {
   render() {
 	  const { DataDefault, USD_Rates} = this.props.data;
 	return(
 		<Card.Group itemsPerRow={1}>
+			
 			{DataDefault.map((data, i) => {
 				const Rate = data.Rates * parseInt(USD_Rates);
 				const Rate2 = Rate / 10;

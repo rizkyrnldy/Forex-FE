@@ -1,8 +1,10 @@
+body{background: #f2f2f2 !important;}
 .height-full{height: 100vh;}
 
 .no-padding{padding: 0 !important}
 .no-margin{margin: 0 !important}
 .pr-30{padding-right: 30px !important;}
+.mt-100{margin: 50px 0 0px 0 !important}
 
 .italic{font-style: italic}
 
